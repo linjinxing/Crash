@@ -15,6 +15,7 @@
 		CE4D985A1E8C99BC002D37D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4D98581E8C99BC002D37D8 /* LaunchScreen.storyboard */; };
 		CE4D98651E8C99BC002D37D8 /* CrashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4D98641E8C99BC002D37D8 /* CrashTests.m */; };
 		CE4D98701E8C99BC002D37D8 /* CrashUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4D986F1E8C99BC002D37D8 /* CrashUITests.m */; };
+		CE4D98901E8CA1E7002D37D8 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4D988F1E8CA1E7002D37D8 /* ScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CE4D986B1E8C99BC002D37D8 /* CrashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4D986F1E8C99BC002D37D8 /* CrashUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashUITests.m; sourceTree = "<group>"; };
 		CE4D98711E8C99BC002D37D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4D988E1E8CA1E7002D37D8 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		CE4D988F1E8CA1E7002D37D8 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +179,8 @@
 		CE4D988D1E8C9A2D002D37D8 /* ScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				CE4D988E1E8CA1E7002D37D8 /* ScrollViewController.h */,
+				CE4D988F1E8CA1E7002D37D8 /* ScrollViewController.m */,
 			);
 			path = ScrollView;
 			sourceTree = "<group>";
@@ -315,6 +320,7 @@
 			files = (
 				CE4D98521E8C99BC002D37D8 /* ViewController.m in Sources */,
 				CE4D984F1E8C99BC002D37D8 /* AppDelegate.m in Sources */,
+				CE4D98901E8CA1E7002D37D8 /* ScrollViewController.m in Sources */,
 				CE4D984C1E8C99BC002D37D8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
