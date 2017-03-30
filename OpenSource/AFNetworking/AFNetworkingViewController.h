@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AFNetworkingViewController.h
 //  Crash
 //
 //  Created by 林金星 on 17/3/30.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface AFNetworkingViewController : UIViewController
 
 @end
-
